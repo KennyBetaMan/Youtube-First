@@ -1,0 +1,139 @@
+.imgThumbnail-1 {
+  width: 100%;
+ 
+}
+
+.imgThumbnail-2{
+  width: 100%;
+  display: block;
+ 
+}
+.pLaugh{
+font-family: Roboto, Arial, sans-serif;
+}
+.pTalking{
+font-family: Roboto, Arial, sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+}
+.pMarques, .pView, .pMark {
+font-family: Roboto, Arial, sans-serif;
+font-size: 12px;
+color: gray(96, 96, 96);
+line-height: 25px;
+}
+.divThumbnail, .divLaughImage{
+
+position: relative;
+
+}
+.divChannel1{
+position: relative;
+
+}
+.divChTtMV{
+margin-top: 10px;
+display: grid;
+grid-template-columns: 50px 1fr;
+
+}
+.divTalking{
+display: inline-block;
+
+
+margin-bottom: 20px;
+}
+.imgChannel1{
+border-radius: 40px;
+width: 100%;
+}
+.divMarque, .divView{
+display: inline-block;
+margin-top: 10px;
+}
+.divText{
+
+
+}
+.divChannel2 {
+width: 100%;
+}
+.divText2{
+
+
+}
+.divLaughText{
+margin-top: 10px;
+display: grid;
+grid-template-columns: 50px 1fr;
+
+}
+.pLaugh{
+display: inline-block;
+
+}
+.imgChannel2{
+border-radius: 40px;
+width: 100%;
+}
+.divTry{
+margin-bottom: 15px;
+}
+.divMark{
+margin-bottom: 10px;
+}
+.Youtube-Grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+row-gap: 40px;
+margin-top: 65px;
+margin-left: 90px;
+border-style: solid;
+border-color: rgb(250, 247, 247);
+background-color: rgb(250, 249, 249);
+padding-top: 20px;
+padding-bottom: 12px;
+padding-right: 12px;
+padding-left: 20px;
+}
+
+@media (max-width: 750px) { 
+  .Youtube-Grid {
+    grid-template-columns: 1fr 1fr ;
+  }
+  
+}
+@media (max-width:751px) and (min-width:999px) {
+  .Youtube-Grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px) {
+  .Youtube-Grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.body{
+  height: 3000px;
+}
+.Video-Time{
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 8px;
+  right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+
+}
+.divTalkingTech:hover, .divLaugh:hover{
+cursor: pointer;
+}

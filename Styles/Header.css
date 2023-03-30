@@ -1,0 +1,177 @@
+.Search-Bar {
+  font-family: Arial;
+  font-size: 18px;
+  width: 0;
+  height: 36px;
+  padding-left:10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: -2px;
+  flex:1;
+  max-width: 400px;
+  
+  
+ }
+
+ .Header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 100
+  
+ }
+ .Section-1{
+
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+ }
+ .imgHamburgerIcon{
+  width: 30px;
+  width: 30px;
+  margin-right: 20px;
+ }
+ .imgHamburgerIcon:hover{
+  cursor: pointer;
+ }
+ .imgYoutubeIcon{
+  width: 90px;
+  height: 90px;
+
+ }
+ .imgYoutubeIcon:hover{
+  cursor: pointer;
+ }
+ .Section-2{
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+  flex:1;
+  align-items: center;
+  
+ }
+ .divSearchImage, .Voice-Search, .divUpload, .U-Apps, .Notification-Count{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ .divSearchImage .Tooltip, .Voice-Search .Tooltip, .divUpload .Tooltip, .U-Apps .Tooltip, .Notification-Count .Tooltip {
+  background-color: gray;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 6px;
+  padding-bottom:8px;
+  padding-top:8px;
+  font-weight: 500px;
+  position: absolute;
+  bottom: -40px;
+  border-radius: 3px;
+  opacity: 0;
+  white-space: nowrap;
+ }
+ .divSearchImage:hover .Tooltip, .Voice-Search:hover .Tooltip, .divUpload:hover .Tooltip, .U-Apps:hover .Tooltip, .Notification-Count:hover .Tooltip {
+  opacity: 1;
+ }
+
+ .imgSearchIcon{
+  width: 70px;
+  height: 41px;
+  background-color: rgb(243, 235, 235);
+  border: solid;
+  border-color: rgb(247, 245, 245);
+  border-width: 2px;
+ }
+ .imgSearchIcon:hover{
+  background-color: rgb(230, 223, 223);
+  cursor: pointer;
+  opacity: 1;
+ }
+ .imgVoiceSearchIcon, .Voice-Search{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(247, 244, 244);
+  border-radius: 20px;
+  border: none;
+ }
+ .Voice-Search{
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+ }
+ .imgVoiceSearchIcon:hover{
+  cursor: pointer;
+ }
+ .Section-3{
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ } 
+ .imgUploadIcon{
+  width: 25px;
+  height: 25px;
+ }
+ .imgYoutubeappsIcon{
+  width: 25px;
+  height: 25px;
+ }
+ .imgNotificationIcon{
+  width: 25px;
+  height: 25px;
+ }
+ .imgMyChannel{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+ }
+ .imgMyChannel:hover {
+  cursor: pointer;
+ }
+ .imgNotificationIcon:hover{
+  cursor: pointer;
+ }
+ .imgYoutubeappsIcon:hover{
+  cursor: pointer;
+ }
+ .imgUploadIcon:hover{
+  cursor: pointer;
+ }
+ .Notification-Count{
+  position: relative
+ }
+ .nNotifications{
+  background-color: rgb(189, 4, 4);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  font-family:  Roboto, Arial;
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  padding-top: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+
+  border-radius: 12px;
+
+}
+

@@ -1,0 +1,30 @@
+.Side-Bar{
+  position:fixed;
+  top: 55px;
+  left: 0px;
+  bottom: 0px;
+  width: 90px;
+
+  
+}
+.Side-Bar-Icon{
+ 
+  height: 76px;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Side-Bar-Icon img{
+height: 24px;
+margin-bottom: 8px;
+}
+.Side-Bar-Icon div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+.Side-Bar-Icon:hover{
+cursor: pointer;  
+background-color: rgb(223, 217, 217);
+}
